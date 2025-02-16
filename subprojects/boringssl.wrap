@@ -1,0 +1,11 @@
+[wrap-file]
+directory = boringssl-8c6b0c04f19f5a6a13af3e29a6a4bb6784cb2bd7
+patch_directory = boringssl
+source_url = https://github.com/google/boringssl/archive/8c6b0c04f19f5a6a13af3e29a6a4bb6784cb2bd7.tar.gz
+source_filename = boringssl.tar.gz
+source_hash = 7bb6c6d8cfacba88000d1566a14369d628c556b4268450611d52eb15f5847ba1
+
+[provide]
+ssl = ssl_dep
+crypto = crypto_dep
+
