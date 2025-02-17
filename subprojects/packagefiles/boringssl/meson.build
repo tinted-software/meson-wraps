@@ -327,3 +327,5 @@ ssl_dep = declare_dependency(
   link_with: libssl,
   include_directories: inc,
 )
+
+install_subdir('include/openssl', install_dir: 'include')
